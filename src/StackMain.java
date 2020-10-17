@@ -21,12 +21,12 @@ class Stack{
 		
 		return data;
 	}
-	int peek() {
+	int peek() { // it will show top value of the stack
 		int data;
 		data = stack[top-1];
 		return data;
 	}
-	int getSize() {
+	int getSize() { // From here we wll get size of the stack
 		return top;
 	}
 	boolean isEmpty() {
